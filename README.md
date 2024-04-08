@@ -15,19 +15,18 @@ As a seller, you can easily create listings for your products, set your own pric
 ## Screenshots
 
 ### Sign in
-![Sign in](https://github.com/omerh23/MarketMate-front/assets/93769579/50f35e70-8c3e-459b-a3c0-b9be31df426f)
+![image](https://github.com/omerh23/Market-Mate/assets/93769579/ab459a98-a63c-44c1-8f0e-13cc9f399245)
 
 ### Sign up
-![Sign up](https://github.com/omerh23/MarketMate-front/assets/93769579/f5f3c98c-fcb5-4a15-93e5-1ab1b037732b)
+![image](https://github.com/omerh23/Market-Mate/assets/93769579/f35452f0-e5e3-4b91-adac-b71212cffb12)
 
-### Reset Password
-![Reset Password](https://github.com/omerh23/MarketMate-front/assets/93769579/33a86588-db5a-4664-bbe3-4629a91a45de)
 
 ### Profile Page
-![Profile Page](https://github.com/omerh23/MarketMate-front/assets/93769579/e8ee3d80-ec3d-44a2-ba85-721efdb98b33)
+![image](https://github.com/omerh23/Market-Mate/assets/93769579/13da55ec-0b0b-44af-bc17-4d0ebc871b2c)
 
 ### Home Page
-![Home Page](https://github.com/omerh23/MarketMate-front/assets/93769579/6cf7c4b4-c390-4a13-be69-2d454a319a35)
+![image](https://github.com/omerh23/Market-Mate/assets/93769579/8c56868c-952a-4739-9ce0-d068e928530f)
+
 
 ### Contact
 ![Contact](https://github.com/omerh23/MarketMate-front/assets/93769579/51143c80-fbfc-4476-af30-dd64d4afb6bf)
