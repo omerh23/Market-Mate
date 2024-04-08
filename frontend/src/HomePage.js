@@ -4,7 +4,7 @@ import axios from 'axios';
 import './cssFile.css';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faMessage, faBookmark, faHeart, faSearch, faSort,faShare } from '@fortawesome/free-solid-svg-icons';
+import { faMessage, faBookmark, faHeart, faSort,faShare } from '@fortawesome/free-solid-svg-icons';
 import { Slide } from 'react-slideshow-image';
 import UserNavbar from './UserNavbar.js';
 import AddProductPopup from './AddProductPopup.js';
@@ -422,8 +422,10 @@ function HomePage() {
                             {listing.name}
                           </Link>
                         </span>
-                  </p>
+                    </p>
+
                 </div>
+
                 <div className={`slide-container ${addProductPopupIsOpen ? 'hide-arrows' : ''}`}>
                   {listing.pictures.length > 0 && (
                     <Slide>

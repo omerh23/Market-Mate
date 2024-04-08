@@ -473,7 +473,7 @@
 .listings li {
     position: relative;
     margin: 5% auto;
-    width: 700px;
+    width: 750px;
     height: 350px;
     background: #FFF;
     border-radius: 8px;
@@ -1133,6 +1133,7 @@ header {
     display: flex;
     align-items: center;
     box-shadow: 0 0 25px 0 black;
+    z-index: 1;
 }
 
 
@@ -1260,20 +1261,24 @@ button.switch-button {
 }
 
 .listing-details  {
+    /*display: flex;*/
+    /*align-items: flex-start;*/
+    /*position: absolute;*/
+    /*top: 0;*/
+    /*left: 0;*/
+    /*box-sizing: border-box;*/
+    /*padding: 20px;*/
+    /*width: 250px;*/
+    /*height: 300px;*/
+    /*flex-direction: column;*/
+    /*align-content: space-around;*/
+    /*flex-wrap: nowrap;*/
+    /*justify-content: flex-start;*/
     display: flex;
-    align-items: flex-start;
-    position: absolute;
-    top: 0;
-    left: 0;
-    box-sizing: border-box;
-    padding: 40px;
-    width: 250px;
-    height: 300px;
     flex-direction: column;
-    align-content: space-around;
-    flex-wrap: nowrap;
-    justify-content: flex-start;
+    align-items: flex-start;
 }
+
 
 .label {
     min-width: 100px;
@@ -1432,8 +1437,42 @@ button.delete-button:hover {
     text-decoration: underline;
 }
 
-.search{
-    border: 1px solid #0069d9;
-    padding: 20px;
-    width: 250px;
+.search {
+    display: flex;
+    align-items: flex-start;
+    padding: 10px;
+    /*border: 1px solid #ccc;*/
+    /*border-radius: 5px;*/
+    flex-direction: column;
 }
+
+.search input[type="text"] {
+    width: 200px;
+    height: 30px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.search select {
+    width: 150px;
+    height: 30px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.fonts {
+    margin-top: 10px;
+}
+
+.fonts span {
+    margin-left: 5px;
+    color: #0056b3;
+}
+
+.fonts span:hover {
+    color: #0056b3;
+}
+
