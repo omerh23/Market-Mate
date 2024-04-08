@@ -2,12 +2,10 @@ import React from 'react';
 import './cssFile.css';
 import { FloatingWhatsApp } from 'react-floating-whatsapp';
 
-
 function ContactDetailsPopup({ listing, closePopup }) {
   const phoneNumber = listing.phone;
   const { name } = listing;
   const formattedPhoneNumber = phoneNumber.replace(/\D/g, ''); // Remove non-digit characters
-
 
   // Function to handle the phone number click and initiate a phone call
   const handlePhoneNumberClick = () => {
@@ -16,9 +14,9 @@ function ContactDetailsPopup({ listing, closePopup }) {
 
   // Function to handle the WhatsApp click and open a WhatsApp chat
   // eslint-disable-next-line no-unused-vars
-  // const handleWhatsAppClick = () => {
-  //   window.location.href = `https://wa.me/${formattedPhoneNumber}`;
-  // };
+  const handleWhatsAppClick = () => {
+    window.location.href = `https://wa.me/${formattedPhoneNumber}`;
+  };
 
   return (
       <div className="popup">

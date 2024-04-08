@@ -9,7 +9,7 @@ function SignIn() {
   const [password, setPassword] = useState('');
   const [serverResponse, setServerResponse] = useState('');
   const [isAuthenticated, setIsAuthenticated] = useState(false);
-
+  const [details, setDeatils] = useState('');
   let credentials = {
     email: '',
     password: '',
@@ -17,12 +17,14 @@ function SignIn() {
 
   async function post(e) {
     e.preventDefault();
+    setServerResponse('');
     try {
       credentials = {
         email,
         password,
       };
-      setIsAuthenticated(false);
+      setDeatils('Loading please wait..');
+        setIsAuthenticated(false);
       // eslint-disable-next-line max-len
       const responseFromServer = await axios.post('https://backend-server-qdnc.onrender.com/post_signin', { credentials });
       setServerResponse(responseFromServer.data);
@@ -31,6 +33,8 @@ function SignIn() {
       } else {
         setIsAuthenticated(false);
       }
+        setDeatils('');
+
     } catch (error) {
       console.log(error);
     }
@@ -64,6 +68,8 @@ function SignIn() {
                       {/* eslint-disable-next-line max-len */}
                       <input type="submit" className="signin_button" value="Sign in" onClick={post} />
                   </form>
+                  {details}
+
                   <div>
                       {/* eslint-disable-next-line max-len */}
                       <p className={`messages_fonts ${serverResponse === 'Welcome !' ? 'success' : 'error'}`}>
