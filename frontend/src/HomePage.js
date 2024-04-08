@@ -395,35 +395,34 @@ function HomePage() {
             return (
               <li key={listing.id}>
                 <div className="listing-details">
-                  <p>
-                    <span className="label">Title:</span>
-                    <span className="value">{listing.title}</span>
-                  </p>
-                  <p>
-                    <span className="label">Price:</span>
-                    <span className="value">{listing.price}</span>
-                  </p>
-                  <p>
-                    <span className="label">Category:</span>
-                    <span className="value">{listing.category}</span>
-                  </p>
-                  <p>
-                    <span className="label">Description:</span>
-                    <span className="value">{listing.description}</span>
-                  </p>
-                  <p>
-                    <span className="label">Likes:</span>
-                    <span className="value">{listing.likes}</span>
-                  </p>
-                  <p>
-                    <span className="label">User:</span>
-                    <span className="value">
+                    <p>
+                      <span className="label">Title:</span>
+                      <span className="value">{listing.title}</span>
+                    </p>
+                    <p>
+                      <span className="label">Price:</span>
+                      <span className="value">{listing.price}</span>
+                    </p>
+                    <p>
+                      <span className="label">Category:</span>
+                      <span className="value">{listing.category}</span>
+                    </p>
+                    <p>
+                      <span className="label">Description:</span>
+                      <span className="value">{listing.description}</span>
+                    </p>
+                    <p>
+                      <span className="label">Likes:</span>
+                      <span className="value">{listing.likes}</span>
+                    </p>
+                    <p>
+                      <span className="label">User:</span>
+                      <span className="value">
                           <Link to={`/User/${listing.userid}`} style={{ color: '#0b6cb3', marginLeft: '2px' }}>
                             {listing.name}
                           </Link>
                         </span>
                     </p>
-
                 </div>
 
                 <div className={`slide-container ${addProductPopupIsOpen ? 'hide-arrows' : ''}`}>
