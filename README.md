@@ -27,7 +27,8 @@ As a seller, you can easily create listings for your products, set your own pric
 ![Profile Page](https://github.com/omerh23/MarketMate-front/assets/93769579/e8ee3d80-ec3d-44a2-ba85-721efdb98b33)
 
 ### Home Page
-![Home Page](https://github.com/omerh23/MarketMate-front/assets/93769579/6cf7c4b4-c390-4a13-be69-2d454a319a35)
+![image](https://github.com/omerh23/Market-Mate/assets/93769579/8c56868c-952a-4739-9ce0-d068e928530f)
+
 
 ### Contact
 ![Contact](https://github.com/omerh23/MarketMate-front/assets/93769579/51143c80-fbfc-4476-af30-dd64d4afb6bf)
