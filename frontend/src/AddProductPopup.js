@@ -2,8 +2,6 @@ import React, { useState } from 'react';
 import './cssFile.css';
 import axios from 'axios';
 
-
-
 function AddProductPopup(props) {
   const [category, setCategory] = useState('Select Category');
   const [price, setPrice] = useState('');
