@@ -33,16 +33,11 @@ As a seller, you can easily create listings for your products, set your own pric
 
 ## Installation
 
-Provide installation instructions here.
-
-## Usage
-
-Provide information on how to use the project here.
-
-## Contributing
-
-If you want others to contribute to your project, provide guidelines for how they can do so.
-
-## License
-
-Include information about the license under which the project is released.
+1. Clone the repository
+2. Navigate to the project folder: `cd frontend`
+3. Install dependencies: `npm install`
+4. Start the application: `npm start`
+also for backend
+1. Navigate to the project folder: `cd backend`
+2. Install dependencies: `npm install`
+3. Start the application: `npm start`
